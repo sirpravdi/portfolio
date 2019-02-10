@@ -377,6 +377,7 @@ label[for^=work]:hover span{
 .gallery__pictures img {
 	width: 100%;
 	max-width: 700px;
+	height: 377px;
 	-o-object-fit: contain;
 	   object-fit: contain;
 	border-radius: 8px;
@@ -669,8 +670,9 @@ form input:focus {
 		height: 280px;
 	}
 
-	.gallery__pictures img{
+	.gallery__pictures img {
 		max-width: 520px;
+		height: 280px;
 		margin-top: 16px;
 	}
 
@@ -783,8 +785,9 @@ form input:focus {
 		height: 150px;
 	}
 
-	.gallery__pictures img{
+	.gallery__pictures img {
 		max-width: 280px;
+		height: 150px;
 	}
 
 	#work1_2:checked ~ .gallery__pictures img:nth-child(2),

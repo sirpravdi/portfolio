@@ -375,6 +375,7 @@ label[for^=work]:hover span{
 }
 
 .gallery__pictures img {
+	width: 100%;
 	max-width: 700px;
 	-o-object-fit: contain;
 	   object-fit: contain;

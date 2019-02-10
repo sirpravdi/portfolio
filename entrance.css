@@ -176,7 +176,7 @@ footer h2,
 }
 
 .expectations label:hover::after,
-.expectations label:hover::before   {
+.expectations label:hover::before {
 	border-color: #000;
 }
 
@@ -195,7 +195,7 @@ footer h2,
 #exp1:checked ~ [for='exp1'],
 #exp2:checked ~ [for='exp2'],
 #exp3:checked ~ [for='exp3'],
-#exp4:checked ~ [for='exp4']{
+#exp4:checked ~ [for='exp4'] {
 	color: #000;
 }
 
@@ -315,7 +315,7 @@ label[for^=work] {
 	text-align: center;
 }
 
-label[for^=work] span{
+label[for^=work] span {
 	display: block;
 	width: 8px;
 	height: 8px;
@@ -328,7 +328,7 @@ label[for^=work]:hover {
 	cursor: pointer;
 }
 
-label[for^=work]:hover span{
+label[for^=work]:hover span {
 	background-color: #fff;
 	border-color: #fff;
 }
@@ -488,7 +488,7 @@ textarea {
 }
 
 
-[type=file]{
+[type=file] {
 	display: none;
 }
 
@@ -518,11 +518,11 @@ label[for=sendFile]:hover {
 	color: #000;
 }
 
-[type=file]:valid + label[for=sendFile]{
+[type=file]:valid + label[for=sendFile] {
 	color: transparent;
 }
 
-[type=file]:valid + label[for=sendFile]:after{
+[type=file]:valid + label[for=sendFile]:after {
 	position: absolute;
 	z-index: 10;
 	content: 'Загрузить другой файл';
@@ -651,7 +651,7 @@ form input:focus {
 		margin-top: 8px;
 	}
 
-	.portfolio__works section{
+	.portfolio__works section {
 		margin-top: 60px;
 	}
 

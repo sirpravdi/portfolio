@@ -772,8 +772,8 @@ form input:focus {
 
 	input[name=name], 
 	input[name=email],
-	textarea,
 	label[for=sendFile],
+	textarea,
 	input[type=submit] {
 		max-width: 280px;
 		width: 100%;

@@ -371,6 +371,8 @@ label[for^=work]:hover span{
 	display: flex;
 	max-width: 700px;
 	overflow: hidden;
+	border-radius: 8px;
+	margin-top: 20px;
 }
 
 .gallery__pictures img {
@@ -381,7 +383,6 @@ label[for^=work]:hover span{
 	-o-object-fit: contain;
 	   object-fit: contain;
 	border-radius: 8px;
-	margin-top: 20px;
 	-webkit-transition: -webkit-transform 200ms ease-out;
 	transition: -webkit-transform 200ms ease-out;
 	-o-transition: transform 200ms ease-out;
@@ -667,11 +668,11 @@ form input:focus {
 
 	.gallery__pictures {
 		max-width: 520px;
+		margin-top: 16px;
 	}
 
 	.gallery__pictures img {
 		max-width: 520px;
-		margin-top: 16px;
 	}
 
 	.gallery__description {

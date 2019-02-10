@@ -370,14 +370,13 @@ label[for^=work]:hover span{
 	display: -ms-flexbox;
 	display: flex;
 	max-width: 700px;
-	height: 377px;
 	overflow: hidden;
 }
 
 .gallery__pictures img {
 	width: 100%;
 	max-width: 700px;
-	height: 377px;
+	height: 100%;
 	-o-object-fit: contain;
 	   object-fit: contain;
 	border-radius: 8px;
@@ -667,12 +666,10 @@ form input:focus {
 
 	.gallery__pictures {
 		max-width: 520px;
-		height: 280px;
 	}
 
 	.gallery__pictures img {
 		max-width: 520px;
-		height: 280px;
 		margin-top: 16px;
 	}
 
@@ -782,12 +779,10 @@ form input:focus {
 
 	.gallery__pictures {
 		max-width: 280px;
-		height: 150px;
 	}
 
 	.gallery__pictures img {
 		max-width: 280px;
-		height: 150px;
 	}
 
 	#work1_2:checked ~ .gallery__pictures img:nth-child(2),
